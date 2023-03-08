@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+    height:20vh;
+}
+
+
+ul{
+    position: relative;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+    display: none;
+}
+
+div a{
+    text-decoration: none;
+}
+
+.hover-list > a:hover + ul>li{
+    /* 
+        <div class="hover-list ...">
+          <a but only on hover>
+          <ul>
+            <li> 
+    */
+    color:blue;
+    display: block;
+}
+ul:hover > li{
+    display: block;
+}
+
+.hover-list{
+    color:rgb(228, 190, 154);
+}
