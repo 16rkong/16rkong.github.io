@@ -24,9 +24,11 @@ class Sprite{
         ctx.drawImage(this.image, -this.width / 2, -this.height / 2, this.width, this.height); //draw img w/ offset of width & height
         ctx.restore(); //restore ctx
 
-        
+        // debug        
+        /*
         ctx.fillStyle="#FF0000";
-        ctx.strokeRect(this.x,this.y,this.width,this.height);
+        ctx.strokeRect(this.x,this.y,this.width,this.height);\
+        /* */
     }
 
     draw(){

@@ -102,8 +102,8 @@ class PlayerBullet extends Sprite{
     }
     
     tick(){
-        //this.x += Math.sin(this.direction)*5;
-        //this.y -= Math.cos(this.direction)*5;
+        this.x += Math.sin(this.direction)*5;
+        this.y -= Math.cos(this.direction)*5;
         if (this.x < -30 || this.x > canvas.width + 30 || this.y < -30 || this.y > canvas.height + 30){
             this.active = false;
         }

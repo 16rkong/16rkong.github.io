@@ -20,8 +20,16 @@ window.onload = function() {
 
     // for (let i = 0; i < document.getElementsByClassName("nav-list-item").length; i++) {
     //     document.getElementsByClassName("nav-list-item")[i].style.backgroundColor = "#".concat(genRandHex(6));
-    // }
+    // }el
 
     
 }
 */
+
+// window.onload = function (){
+//     for (let elemidx = 0; elemidx < document.querySelectorAll("nav a").length; elemidx++) {
+//         const elem = document.querySectorAll("nav a")[elemidx];
+//         elem.target = "_blank";
+        
+//     }
+// }
